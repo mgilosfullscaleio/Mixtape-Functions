@@ -7,7 +7,9 @@
     "shell": "firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "emulators": "firebase emulators:start",
+    "credential": "set GOOGLE_APPLICATION_CREDENTIALS=D:\\work\\mixtape-functions\\functions\\serviceAccount.json"
   },
   "engines": {
     "node": "8"
